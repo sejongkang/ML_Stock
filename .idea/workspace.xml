@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4f4531-09ea-414b-8bb6-27144a103b37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/.idea/DataSet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/Merged/한국전력공사_merged_data_2010-01-01_to_2020-04-27.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/Tweets/삼성전자_twitter_data_2019-04-01_to_2020-03-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/Tweets/삼성전자_twitter_data_2020-04-01_to_2020-04-27.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/Tweets/한국전력공사_twitter_data_2010-01-01_to_2020-04-27.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/Words/negative_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/Words/positive_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/corp_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/삼성전자_merged_data_2019-04-01_to_2020-03-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure/LG전자.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure/삼성전자.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure/한국전력공사.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main_Pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Model_04231154" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/keras_model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/keras_model_single.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/stock_model_pytorch.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stock_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweet_Crawling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSTM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/samsung.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +59,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sentiment" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Exam">
-    <configuration name="Exam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\SeJongKang\HOT\Developement\Projects\PycharmProjects\ML_Stock" />
+      <recent name="D:\Users\SeJongKang\HOT\Developement\Projects\PycharmProjects\ML_Stock\DataSet" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\SeJongKang\HOT\Developement\Projects\PycharmProjects\ML_Stock\DataSet\Words" />
+      <recent name="D:\Users\SeJongKang\HOT\Developement\Projects\PycharmProjects\ML_Stock\DataSet\Merged" />
+      <recent name="D:\Users\SeJongKang\HOT\Developement\Projects\PycharmProjects\ML_Stock\DataSet\Tweet" />
+      <recent name="D:\Users\SeJongKang\HOT\Developement\Projects\PycharmProjects\ML_Stock\DataSet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main_Pytorch">
+    <configuration name="Main_Pytorch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML_Stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exam.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main_Pytorch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SentimentAnalyzer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML_Stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SentimentAnalyzer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,10 +117,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Tweet_Crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML_Stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tweet_Crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="naver_news_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML_Stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naver_news_crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML_Stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Main_Pytorch" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Tweet_Crawling" />
+      <item itemvalue="Python.SentimentAnalyzer" />
+      <item itemvalue="Python.naver_news_crawling" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Exam" />
-        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Main_Pytorch" />
+        <item itemvalue="Python.Tweet_Crawling" />
+        <item itemvalue="Python.naver_news_crawling" />
+        <item itemvalue="Python.SentimentAnalyzer" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -101,55 +211,63 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1490" height="466" key="DebuggerActiveHint" timestamp="1587568867720">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587791397709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587568867720" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1587610678664">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587791397709" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587884984499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587566202791" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587884984499" />
+    <state width="1490" height="466" key="DebuggerActiveHint" timestamp="1587909720198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1490" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587909720198" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587985387591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587985387591" />
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587610678664" />
-    <state width="1899" height="210" key="GridCell.Tab.0.bottom" timestamp="1587635424720">
+    <state width="731" height="983" key="GridCell.Tab.0.bottom" timestamp="1588061775912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424720" />
-    <state width="1899" height="404" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
-    <state width="1899" height="210" key="GridCell.Tab.0.center" timestamp="1587635424720">
+    <state width="731" height="983" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588061775912" />
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587975056881" />
+    <state width="731" height="983" key="GridCell.Tab.0.center" timestamp="1588061775912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424720" />
-    <state width="1899" height="404" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
-    <state width="1899" height="210" key="GridCell.Tab.0.left" timestamp="1587635424720">
+    <state width="731" height="983" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588061775912" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587975056881" />
+    <state width="731" height="983" key="GridCell.Tab.0.left" timestamp="1588061775912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424720" />
-    <state width="1899" height="404" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
-    <state width="1899" height="210" key="GridCell.Tab.0.right" timestamp="1587635424720">
+    <state width="731" height="983" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588061775912" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587975056880" />
+    <state width="731" height="983" key="GridCell.Tab.0.right" timestamp="1588061775912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424720" />
-    <state width="1899" height="404" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.bottom" timestamp="1587635424715">
+    <state width="731" height="983" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588061775912" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587975056881" />
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.bottom" timestamp="1588060433231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424715" />
-    <state width="1899" height="404" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.center" timestamp="1587635424715">
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588060433231" />
+    <state width="1899" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587974275938" />
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.center" timestamp="1588060433231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424715" />
-    <state width="1899" height="404" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.left" timestamp="1587635424715">
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588060433231" />
+    <state width="1899" height="335" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587974275938" />
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.left" timestamp="1588060433231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424715" />
-    <state width="1899" height="404" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.right" timestamp="1587635424715">
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588060433231" />
+    <state width="1899" height="335" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587974275938" />
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.right" timestamp="1588060433231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="439" width="1899" height="404" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587635424715" />
-    <state width="1899" height="404" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587569940588" />
+    <state x="564" y="439" width="1899" height="316" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588060433231" />
+    <state width="1899" height="335" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587974275938" />
     <state x="564" y="439" width="627" height="572" key="GridCell.Tab.2.bottom" timestamp="1587557462965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,40 +284,67 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="439" width="627" height="572" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587557462964" />
-    <state x="553" y="140" key="SettingsEditor" timestamp="1587567931263">
+    <state x="2473" y="140" key="SettingsEditor" timestamp="1587974341673">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="140" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587882970026" />
+    <state x="2473" y="140" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587974341673" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1588045390648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="140" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587567931263" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1587634912594">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588045390648" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587726333309" />
+    <state x="1920" y="0" width="1482" height="690" maximized="true" key="dock-window-1" timestamp="1587978885793">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587634912594" />
-    <state x="564" y="439" width="643" height="639" key="dock-window-1" timestamp="1587557522735">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="564" y="439" width="643" height="639" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587557522735" />
+    <state x="1920" y="0" width="1482" height="690" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587978885793" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>80</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/Main_Pytorch.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/Main_Pytorch.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tweet_Crawling.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tweet_Crawling.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main_Pytorch.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="207" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))" language="Python" />
-        <watch expression="(x_test.shape[0], x_test.shape[1], 1)" language="Python" />
-        <watch expression="x_test.shape" language="Python" />
-        <watch expression="result" />
+        <watch expression="data = pd.merge(stock_data, twt_data, on='Date', how='outer').fillna(0)" language="Python" />
+        <watch expression="data" language="Python" />
+        <watch expression="len(data)" language="Python" />
+        <watch expression="data.loc[i, 'Gap'] = data.iloc[i, 1] - data.iloc[i - 1, 1]" language="Python" />
+        <watch expression="data" language="Python" />
+        <watch expression=" days_range[-1]" />
+        <watch expression="pdr.get_data_yahoo(code, start, end)" />
       </configuration>
     </watches-manager>
   </component>

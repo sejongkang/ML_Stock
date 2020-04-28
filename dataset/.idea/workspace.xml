@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="002e94be-cc6e-4779-a926-13d7891d337b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Main_Keras_single.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main_Pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SentimentAnalyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stock_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tweet_Crawling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LSTM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Main_Keras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1b6wAT0nLqV32Z2qO2yLj5kY2u1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="002e94be-cc6e-4779-a926-13d7891d337b" name="Default Changelist" comment="" />
+      <created>1587965708005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587965708005</updated>
+    </task>
+    <servers />
+  </component>
+</project>
